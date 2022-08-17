@@ -1,5 +1,6 @@
 // fetch() recibe como parametro el endpoint de la API a consumir
-// Como resultado de la peticion HTTP se retorna una promesa
+// Como resultado de la peticion HTTP realizada se retorna una promesa
+// La promesa retornada puede ser manipulada mediante funciones then() y catch()
 
 fetch('https://jsonplaceholder.typicode.com/comments')
     .then(response => {
